@@ -1,4 +1,4 @@
-FROM apify/actor-node-puppeteer-chrome:16
+FROM apify/actor-node-puppeteer-chrome:18
 COPY package.json ./
 RUN echo "Installing dependencies..." && \
     npm install --save apify@^3.0.0 && \
