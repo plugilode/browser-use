@@ -1,0 +1,37 @@
+{
+  "title": "AI Task Robot Input",
+  "description": "Settings for interacting with an AI website",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "url": {
+      "title": "First URL",
+      "type": "string",
+      "description": "The starting URL (e.g., ChatGPT login page)",
+      "editor": "textfield",
+      "default": "https://chat.openai.com/auth/login"
+    },
+    "command": {
+      "title": "Command",
+      "type": "string",
+      "description": "The task for the AI (e.g., a question to ask)",
+      "editor": "textfield",
+      "default": "What is the weather like today?"
+    },
+    "email": {
+      "title": "Email (optional)",
+      "type": "string",
+      "description": "Your login email if the URL requires it",
+      "editor": "textfield"
+    },
+    "password": {
+      "title": "Password (optional)",
+      "type": "string",
+      "description": "Your login password if the URL requires it",
+      "editor": "textfield",
+      "isSecret": true
+    }
+  },
+  "required": ["url", "command"]
+}
+Save thi
