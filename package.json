@@ -1,0 +1,14 @@
+{
+  "name": "chatgpt-browser-use-robot",
+  "version": "1.0.0",
+  "description": "An Apify Actor that uses Browser Use to interact with ChatGPT",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "apify": "^3.0.0"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
